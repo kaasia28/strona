@@ -1,0 +1,517 @@
+body{
+    font-family:Arial;
+}
+.poczatek{
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    background-image:url(./R\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.gornypasek{
+   
+    display:flex;
+    flex-direction: row;
+    font-size: 20px;
+    
+    
+}
+.czcionka{
+    font-size: 50px;
+    width: 30%;
+    height: 20vh;
+    row-gap: 0px;
+    margin-left: 100px;
+    font-family:Arial;
+    
+}
+.puste{
+    width: 65%;
+    height: 1vh;
+}
+nav{
+    flex-direction: row;
+    row-gap: 30px;
+    font-size:15px;
+    width: 100%;
+    height: 30vh;
+
+}
+.software{
+font-size: 50px;
+margin-left: 20%;
+text-decoration: solid;
+color: white;
+
+}
+.development{
+    font-size: 50px;
+    margin-top: -20px;
+    margin-left: 20%;
+    color: white;
+
+}
+.lorem{
+    margin-top: -20px;
+    font-size:small;
+    width: 20%;
+    margin-left: 20%;
+    color: white;
+}
+.guzik1{
+    font-size: 25px;
+    margin-left: 20%;
+    background-color: #9E619A;
+    color: white;
+    border-color: black;
+}
+.guzik2{
+    font-size: 25px;
+    margin-left: 7px;
+    border-color: black;
+    color: #9E619A;
+}
+.kicia{
+    width: 30%;
+    height: 30%;
+    position:absolute;
+    top:50% ;
+    left: 50%;
+}
+.kicia img{
+   
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.drugaczesc{
+    font-size: x-large;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.napis2{
+    font-size: 40px;
+    margin-top: 100px;
+    height:100%;
+    width: 100%;
+    text-align: center;
+  
+}
+ .napis3{
+    font-size: 50px;
+    height:100%;
+    width: 100%;
+    text-align: center;
+   
+}
+.napis4{
+    font-size: 50px; ;
+    height:100%;
+    width: 100%;
+    text-align: center;
+    
+}
+.malytekst{
+    width: 100%;
+    height: 75vh;
+    font-size: 12px;
+    color: grey;
+    margin-top: 5px;
+
+}
+.obrazek1 img{
+    height: 100px;
+    width: 100px;
+}
+.obrazek2 img{
+    height: 100px;
+    width: 100px;
+}
+.obrazek3 img{
+    height: 100px;
+    width: 100px;
+}
+.obrazek4 img{
+    height: 100px;
+    width: 100px;
+}
+.obrazek5 img{
+    height: 100px;
+    width: 100px;
+}
+.obrazek6 img{
+    height: 100px;
+    width: 100px;
+}
+.trzyobrazki1{
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -800px;
+    
+}
+.trzyobrazki2{
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:20px;
+    margin-left: -40px;
+    
+}
+.lorem1{
+    padding-left: 30%;
+  width: 40%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+   
+}
+.trzyobrazki1 h1{
+    color: #9E619A;
+}
+.trzyobrazki2 h1{
+    color: #9E619A;  
+}
+.obrazek1,.obrazek2,.obrazek3,.obrazek4,.obrazek5,.obrazek6{
+  border:3px solid rgba(97, 96, 96, 0.055);
+}
+.sekcja3{
+    width: 100%;
+    height: 1600px;
+    background-color: #1c1b1c;
+
+}
+.taka h1{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #9E619A;
+    
+}
+.tekscik{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.guzik3,.guzik4,.guzik5,.guzik6,.guzik7{
+    border-radius: 5px;
+    margin-top: 39px;
+    font-size: 25px;
+    color: white;
+    background-color: #F3B95F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 3px solid #1c1b1c;
+    
+}
+.guziki{
+    border-radius: 20%;
+    margin-top: 39px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border: 3px solid #1c1b1c;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.zdjecie1 img{
+    height: 400px;
+    width: 400px;  
+}
+.zdjecie2 img{
+    height: 400px;
+    width: 400px;
+}
+.zdjecie3 img{
+    height: 400px;
+    width: 400px;
+}
+.zdjecia{
+    position: relative; 
+    margin-top: 40px;
+    justify-content: center;
+    font-size: 30px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.zdjecie1 {
+color: #9E619A;
+font-size: 15px;
+position: relative;
+
+
+}
+.zdjecie2 {
+font-size: 15px;
+color: #9E619A;
+position: relative;
+text-align: left;
+
+}
+.zdjecie3{
+font-size: 15px;
+ color: #9E619A;
+ position: relative;
+ text-align: left;
+ 
+}
+.guziczek{
+    color: white;
+    background-color: #9E619A;;
+    border-color: #9E619A;;
+    font-size: 20px;
+    position: absolute;
+    top: 62%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #9E619A;;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.sekcja4{
+    background-color: rgb(240, 231, 231);
+    width: 100%;
+    height: 700px;
+}
+.mial{
+    font-size: 25px ;
+    color: #F3B95F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.recentblog{
+    margin-top: 15px;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bialepole{
+    width:100%;
+    color: black;
+    background-color: white;
+}
+
+.kafelki{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pierwszykafelek, .drugikafelek, .trzecikafelek{ 
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    width: 30%; 
+    text-align: left;
+
+}
+.pierwszykafelek img{
+    width: 100%;
+    
+    
+}
+.drugikafelek img{
+    width: 100%;
+
+}
+.trzecikafelek img{
+    width: 100%;
+
+}
+.guzik8{
+    background-color: rgb(240, 231, 231);
+    color:#F3B95F ;
+    font-size: 20px;
+    position: absolute;
+    font-size: 16px;
+    padding: 10px 24px;
+    margin-top: 275px;
+    border: none;
+    border-radius: 3px;
+}
+.sekcja5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(230, 212, 212);
+    
+}
+
+  .kontakt{
+    font-size: 25px ;
+    color: #9E619A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+.malynapis1{
+    color: black;
+    font-size: 16px;
+
+}
+
+.daane{
+    display: flex;
+    flex-direction:column ;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.dane2{
+    text-align: center;
+    width: 30%;
+    flex-direction: column;
+    background-color: #9E619A;
+    border-radius: 9px;
+    color: rgb(59, 59, 59);
+
+
+}
+.form2{
+
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.name{
+    width: 40%;
+    height: 40px;
+    border-style: outset;
+    border-color: #9E619A;
+    border-radius: 5px;
+    background-color: #eadee5;
+}
+.email{
+    width: 40%;
+    height: 40px;
+    border-style: outset;
+    border-color: #9E619A;
+    border-radius: 5px;
+    background-color: #eadee5;
+
+}
+.subject{
+
+    width: 81.5%;
+    height: 40px;
+    border-style: outset;
+    border-color: #9E619A;
+    border-radius: 5px;
+    background-color: #eadee5;
+}
+
+.sendmessage{
+    background-color: rgb(240, 231, 231);
+    color:#9E619A ;
+    font-size: 20px;
+    position: absolute;
+    font-size: 16px;
+    padding: 10px 24px;
+    margin-top: 425px;
+    border: none;
+    border-radius: 3px;
+    justify-content: center;
+   border-style: outset;
+   border-color: #9E619A;
+   border-radius: 5px;
+   background-color: #eadee5;
+
+}
+
+.sekcja6{
+    width: 100%;
+    height: 70vh;
+display: flex;
+align-items: flex-end;
+background-color: rgb(230, 212, 212);;
+
+
+}
+
+.mapa{
+    width: 100%;
+    height:55vh;
+}
+textarea{
+    height: 70%;
+    width: 81.5%;
+    border-style: outset;
+    border-color: #9E619A;
+    border-radius: 5px;
+    background-color: #eadee5;
+}
+.sekcja7{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    display:flex;
+    flex-direction: row;
+    display: flex;
+align-items: flex-end;
+background-color: black;;
+
+}
+.logo{
+    
+    display:flex;
+    flex-direction: row;
+    font-size: 50px;
+    width: 30%;
+    height: 20vh;
+    row-gap: 0px;
+    margin-left: 300px;
+    font-family:Arial;
+
+}
+.tekscik1{
+    color: lightgray;
+
+}
